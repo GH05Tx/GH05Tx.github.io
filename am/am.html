@@ -1,0 +1,156 @@
+<html>
+<head>
+    <title> My Profile </title>
+    <link href="am.css" type="text/css" rel="stylesheet"/>
+    <link href="../main_style.css" type="text/css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../hamburger.js" type="text/javascript"></script>
+</head>
+<body>
+<header>
+    <div class="logo"><img src="../pics/others/logo.png" alt="logo"/></div>
+    <div class="logo600"><img src="../pics/others/logo_800.svg" alt="logo"/></div>
+    <div class="hamburger" onclick="showMenu();">
+        <div id="line"></div>
+        <div id="line"></div>
+        <div id="line"></div>
+    </div>
+    <div id="navbar">
+        <a class="field" href="../main/main.html"> HOME </a>
+        <a class="field" href="../ill/ill.html"> ILLUSTRATIONS </a>
+        <a class="field" href="../photo/photo.html"> PHOTOGRAPHY </a>
+        <a class="field" href="am.html"> ABOUT ME </a>
+    </div>
+    <div class="slider">
+        <figure>
+            <img src="../pics/slides/s1.jpg">
+            <img src="../pics/slides/s2.jpg">
+            <img src="../pics/slides/s3.jpg">
+            <img src="../pics/slides/s5.jpg">
+            <img src="../pics/slides/s4.jpg">
+        </figure>
+    </div>
+    <div class="slider600">
+        <figure>
+            <img src="../pics/slides/s1_600.jpg">
+            <img src="../pics/slides/s2_600.jpg">
+            <img src="../pics/slides/s3_600.jpg">
+            <img src="../pics/slides/s5_600.jpg">
+            <img src="../pics/slides/s4_600.jpg">
+        </figure>
+    </div>
+    <div class="slider800">
+        <figure>
+            <img src="../pics/slides/s1_800.jpg">
+            <img src="../pics/slides/s2_800.jpg">
+            <img src="../pics/slides/s3_800.jpg">
+            <img src="../pics/slides/s5_800.jpg">
+            <img src="../pics/slides/s4_800.jpg">
+        </figure>
+    </div>
+</header>
+<main>
+    <div class="section"><b>MY PROFILE / ABOUT ME</b></div>
+    <div class="content">
+        <div class="picture" onclick="openModal();currentSlide(1)"><img src="../pics/photos/profile.jpg"/></div>
+        <div class="picture_600" onclick="openModal();currentSlide(1)"><img src="../pics/photos/profile600.jpg"/></div>
+        <div class="text">
+            <div class="content_title"><b>Hello World!</b></div>
+            <p>
+                Nice to see You on my website. My name is Jan and I am Computer Science student from Poland.
+                This website is dedicated to my artworks - mainly illustrations and photographs. I have been interested
+                in visual arts since I was a kid. Passion does not change along with passing of time, the only thing
+                that changes is the tool that I use - for the last few years I have focused on Adobe Packet, however I still
+                try to use pencil from time to time.
+            </p>
+            <div class="sbtn1"><a href="https://www.instagram.com/jvsiek98/" target="_blank"><img
+                    src="../pics/others/insta_min.svg"/>
+                <div class="caption">Instagram</div>
+            </a></div>
+            <div class="sbtn1"><a href="https://www.behance.net/janek9805dbc8" target="_blank"><img
+                    src="../pics/others/behance_min.svg"/>
+                <div class="caption">Behance</div>
+            </a></div>
+            <div class="sbtn"><img src="../pics/others/mail.svg"/>
+                <div class="caption">Janek9805@gmail.com</div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <div class="mySlides">
+                <img src="../pics/photos/profile1.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="../pics/photos/profile2.jpg" style="width:100%; ">
+            </div>
+            <div class="mySlides">
+                <img src="../pics/photos/profile3.jpg" style="width:100%">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </div>
+</main>
+<footer> Copyright 2018 myprofile.com &copy; All rights reserved.</footer>
+<script>
+    function openModal() {
+        document.getElementById('myModal').style.display = "block";
+    }
+
+    function closeModal() {
+        document.getElementById('myModal').style.display = "none";
+    }
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        captionText.innerHTML = dots[slideIndex - 1].alt;
+    }
+</script>
+<script>
+    window.onscroll = function () {
+        myFunction()
+    };
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
+</body>
+</html>
