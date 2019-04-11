@@ -29,7 +29,7 @@
     margin-right: auto;
     width: 75%;
     background-color: #f9f9f9;
-    text-align: left;
+    text-align: justify;
 
 }
 
@@ -259,7 +259,7 @@ img.hover-shadow {
     .crime p {
         margin-bottom: 3%;
         top: 30;
-        font-size: 16;
+        font-size: 14;
         width: 75%;
         margin-left: auto;
         margin-right: auto;

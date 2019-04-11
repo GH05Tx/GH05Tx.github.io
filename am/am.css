@@ -43,8 +43,6 @@
 	.content {
         width: 1100;
         height: 494;
-		!width: 90%;
-		!min-width: 800;
     }
 
     .picture_600 {
@@ -52,12 +50,15 @@
     }
 
     .text {
-        margin-left: 400;
+        margin-left: 420;
         top: -410;
+        text-align: justify;
+        display: block;
+        width: 55%;
+        position: relative;
+
     }
     .picture img {
-        !height: 494;
-        !width: 380;
         height: 100%;
         text-align: left;
         -webkit-transition: all 0.1s ease;
@@ -65,6 +66,15 @@
         -moz-transition: all 0.1s ease;
         -o-transition: all 0.1s ease;
     }
+
+    .social_title {
+        font-size: 24;
+        margin-bottom: 5;
+        margin-left: 40;
+    }
+
+
+
 }
 
 
@@ -87,11 +97,6 @@
     line-height: 1.2;
 }
 
-.text {
-    display: block;
-    width: 60%;
-    position: relative;
-}
 
 
 
@@ -108,11 +113,7 @@
     box-shadow: 0 20px 20px 0px rgba(0, 0, 0, 0.5);
 }
 
-.social_title {
-    font-size: 22;
-    margin-bottom: 5;
-    margin-left: 40;
-}
+
 
 .sbtn img {
     width: 40;
@@ -253,15 +254,6 @@ a {
     animation: 16s slidy infinite;
 }
 
-.row > .column {
-    padding: 0 8px;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 .modal {
     display: none;
@@ -432,16 +424,21 @@ img.hover-shadow {
     .content_title b {
         font-size: 30;
         display: inline;
-        text-align: left;
+        !text-align: left;
         margin-left: 30;
+        text-align: middle;
+        justify-content: center;
+
     }
 
     .text {
-        display: block;
+        !display: block;
         margin-left: auto;
         margin-right: auto;
         width: 85%;
         font-size: 14;
+        text-align: justify;
+        !justify-content: center;
     }
 
     .sbtn img {
@@ -550,10 +547,10 @@ img.hover-shadow {
     .text {
         margin-top: 40;
         margin-bottom: 30;
-        width: 75%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
-
+        text-align: justify;
     }
 
     .text p {
@@ -563,17 +560,17 @@ img.hover-shadow {
     .content_title b {
         font-size: 32;
         margin-left: 60;
-        text-align: center;
+        !text-align: middle;
     }
 .sbtn1 {
-    width: 400;
+    width: 300;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 
     .sbtn {
-        width: 400;
+        width: 300;
         margin-left: auto;
         margin-right: auto;
     }
