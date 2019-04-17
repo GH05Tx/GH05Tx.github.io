@@ -56,11 +56,15 @@
     margin-right: auto;
 }
 
-/* ----- TIME OFF BELOW ----- */
+/* ----- VACATIONS BELOW ----- */
 .vacations img {
     margin-bottom: 70;
     width: 100%;
-	
+
+}
+
+.vacations img:hover {
+    cursor: pointer;
 }
 
 .vacations {
@@ -69,7 +73,14 @@
     width: 75%;
 }
 
-/* ----- PARTING BELOW ----- */
+.vacations p {
+    text-align: justify;
+    font-size: 20;
+    margin-bottom: 40;
+
+
+}
+/* ----- TIME OFF BELOW ----- */
 .time_off {
 margin-left: auto;
     margin-right: auto;
@@ -271,31 +282,45 @@ img.hover-shadow {
     }
 
     /* ----- VACATIONS BELOW ----- */
-    .vacations img {
-        margin-bottom: 70;
-        width: 100%;
-    }
-
     .vacations {
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
-        width: 100%;
     }
 
-    .vacations img:hover {
-        cursor: pointer;
+    .vacations p {
+        margin-bottom: 3%;
+        top: 30;
+        font-size: 14;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .vacations img {
+        width: 100%;
+        margin-top: 10;
     }
 
     /* ----- TIME OFF BELOW ----- */
-    .time_off img {
-        margin-bottom: 70;
-        width: 100%;
-    }
-
     .time_off {
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .time_off p {
+        margin-bottom: 3%;
+        top: 30;
+        font-size: 14;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .time_off img {
         width: 100%;
+        margin-top: 10;
     }
 
    
@@ -334,9 +359,6 @@ img.hover-shadow {
 	}
 
     .time_off img {
-        width: 100%;
-    }
-    .time_off {
         width: 90%;
         margin-left: auto;
         margin-right: auto;
