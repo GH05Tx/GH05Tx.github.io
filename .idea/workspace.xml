@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18f3956f-898a-4898-b284-0aae95847a35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/categories/category.css" beforeDir="false" afterPath="$PROJECT_DIR$/photo/categories/category.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/categories/crime.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo/categories/crime.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/photo/categories/parting.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo/categories/parting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/categories/vacations.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo/categories/vacations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pics/photos/time3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pics/photos/time3.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,7 +20,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/am/am.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
+                <state relative-caret-position="1190">
                   <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
                 </state>
               </provider>
@@ -44,7 +38,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/photo/categories/vacations.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="223">
+                <state relative-caret-position="969">
                   <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
                 </state>
               </provider>
@@ -53,11 +47,11 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/photo/categories/category.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
+                <state relative-caret-position="4998">
                   <caret line="294" column="17" selection-start-line="294" selection-start-column="17" selection-end-line="294" selection-end-column="17" />
                 </state>
               </provider>
@@ -66,8 +60,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/photo/categories/parting.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+                <state relative-caret-position="374">
+                  <caret line="85" column="52" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
                 </state>
               </provider>
             </entry>
@@ -98,10 +92,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="312" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="311" />
     <option name="y" value="5" />
-    <option name="width" value="1348" />
+    <option name="width" value="1349" />
     <option name="height" value="980" />
   </component>
   <component name="ProjectView">
@@ -165,14 +159,16 @@
       <updated>1554994327734</updated>
       <workItem from="1554994329614" duration="5247000" />
       <workItem from="1555453352041" duration="3744000" />
+      <workItem from="1555536854131" duration="1213000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8991000" />
+    <option name="totallyTimeSpent" value="10204000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="250" y="4" width="1078" height="784" extended-state="0" />
+    <frame x="249" y="4" width="1079" height="784" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24934037" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -228,14 +224,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/am/am.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="1190">
           <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/photo/categories/vacations.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
+        <state relative-caret-position="969">
           <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
         </state>
       </provider>
@@ -249,15 +245,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/photo/categories/category.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="4998">
           <caret line="294" column="17" selection-start-line="294" selection-start-column="17" selection-end-line="294" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/photo/categories/parting.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+        <state relative-caret-position="374">
+          <caret line="85" column="52" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
         </state>
       </provider>
     </entry>
