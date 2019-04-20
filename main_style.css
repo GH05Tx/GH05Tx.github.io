@@ -93,9 +93,7 @@ body > * {
     background-color: #111;
 }
 
-.active {
-    display: block;
-}
+
 
 .sticky {
     position: fixed;
@@ -397,4 +395,64 @@ footer {
         display: block;
     }
 }
- 
+
+.square img {
+    !width: 800px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30;
+}
+@media (min-width: 800px) {
+    .index #navbar {
+        top: 0;
+        position: absolute;
+        width: 100%;
+    }
+    .index p {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+    }
+}
+@media (min-width: 600px) and (max-width: 800px){
+    .index .hamburger {
+        margin-top: 20;
+        margin-bottom: -15;
+    }
+
+    .square img {
+        width: 60%;
+    }
+
+    .index p {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+    }
+}
+
+
+body .index {
+    background-color: black;
+}
+
+
+
+.caption1 {
+    font-size: 30;
+    margin-bottom: -20;
+    margin-top: -15;
+}
+
+.caption2 {
+    font-size: 14;
+    margin-top: -30;
+}
+
+.active {
+    display: block;
+
+}

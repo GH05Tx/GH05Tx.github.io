@@ -25,22 +25,9 @@
     margin-top: 20;
 }
 
-
-
-@media (min-width: 800px) and (max-width: 1000px) {
-    /*.content {
-      width: 100%;
-        height: 494;
-		margin-left: auto;
-		margin-right: auto;
-		
-    }*/
-
-}
-
 @media (min-width: 800px) {
-	
-	.content {
+
+    .content {
         width: 1100;
         height: 494;
     }
@@ -58,6 +45,7 @@
         position: relative;
 
     }
+
     .picture img {
         height: 100%;
         text-align: left;
@@ -72,15 +60,7 @@
         margin-bottom: 5;
         margin-left: 40;
     }
-
-
-
 }
-
-
-
-
-
 
 .content {
     display: inline-block;
@@ -98,8 +78,6 @@
 }
 
 
-
-
 .picture img:hover {
     cursor: pointer;
     transition: all 0.1s;
@@ -112,7 +90,6 @@
     -webkit-transform: scale(1.04);
     box-shadow: 0 20px 20px 0px rgba(0, 0, 0, 0.5);
 }
-
 
 
 .sbtn img {
@@ -424,7 +401,7 @@ img.hover-shadow {
     .content_title b {
         font-size: 30;
         display: inline;
-        !text-align: left;
+        ! text-align: left;
         margin-left: 30;
         text-align: middle;
         justify-content: center;
@@ -432,13 +409,13 @@ img.hover-shadow {
     }
 
     .text {
-        !display: block;
+        ! display: block;
         margin-left: auto;
         margin-right: auto;
         width: 85%;
         font-size: 14;
         text-align: justify;
-        !justify-content: center;
+        ! justify-content: center;
     }
 
     .sbtn img {
@@ -474,20 +451,11 @@ img.hover-shadow {
         color: #0F0A0A;
     }
 
-    .caption2 {
-        position: relative;
-        left: 40;
-        top: -23;
-        font-size: 16;
-        color: #0F0A0A;
-    }
-
     .contact_title {
         font-size: 22;
         margin-bottom: 5;
     }
-	
-	
+
 
     .contact img {
         width: 30;
@@ -526,23 +494,23 @@ img.hover-shadow {
         border-color: #0F0A0A;
     }
 
-	.content {
-	width: 100%;
-	}
-	
-	.picture {
-		display: none;
-	}
-	
-	.picture_600 img {
+    .content {
+        width: 100%;
+    }
+
+    .picture {
+        display: none;
+    }
+
+    .picture_600 img {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
-	
-	.picture_600:hover{
-	cursor: pointer;
-	}
+
+    .picture_600:hover {
+        cursor: pointer;
+    }
 
     .text {
         margin-top: 40;
@@ -560,14 +528,14 @@ img.hover-shadow {
     .content_title b {
         font-size: 32;
         margin-left: 60;
-        !text-align: middle;
     }
-.sbtn1 {
-    width: 300;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
+
+    .sbtn1 {
+        width: 300;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
 
     .sbtn {
         width: 300;
@@ -575,4 +543,72 @@ img.hover-shadow {
         margin-right: auto;
     }
 }
+
+@media (min-width: 800px) and (max-width: 1100px) {
+
+    .content {
+        width: 100%;
+        height: 380px;
+    }
+
+    .picture {
+        height: 380;
+    }
+
+    .text {
+        top: -350;
+        margin-left: 350;
+    }
+
+    .text p {
+        font-size: 15;
+        width: 95%;
+    }
+
+    .content_title b {
+        margin-bottom: -5;
+    }
+
+    .sbtn1 {
+        margin-left: 40;
+        display: inline-block;
+        margin-right: 50;
+        !margin-top: -15;
+    }
+
+    .sbtn {
+        margin-left: 40;
+        display: block;
+        margin-right: 50;
+        margin-top: -5;
+    }
+
+    .caption {
+        position: relative;
+        left: 40;
+        top: -23;
+        font-size: 16;
+        color: #0F0A0A;
+    }
+
+    .sbtn img {
+        width: 30;
+    }
+
+    .sbtn1 img {
+        width: 30;
+    }
+
+    .sbtn .caption {
+        left: 40;
+        top: -20;
+        font-size: 13;
+    }
+    .sbtn1 .caption {
+        left: 40;
+        top: -20;
+        font-size: 13;
+    }
+}
+
 

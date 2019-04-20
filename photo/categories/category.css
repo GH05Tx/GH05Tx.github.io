@@ -10,7 +10,6 @@
 }
 
 
-
 .section {
     font-size: 30;
     margin-bottom: 40;
@@ -19,8 +18,6 @@
     margin-right: auto;
     text-align: left;
 }
-
-
 
 
 /* ----- CRIME BELOW ----- */
@@ -80,23 +77,24 @@
 
 
 }
+
 /* ----- TIME OFF BELOW ----- */
 .time_off {
-margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
     width: 75%;
-	text-align: left;
+    text-align: left;
 }
 
 .time_off img {
     margin-bottom: 70;
     width: 100%;
-	
+
 }
 
- .time_off img:hover {
-        cursor: pointer;
-    }
+.time_off img:hover {
+    cursor: pointer;
+}
 
 /*---LIGHTBOX---*/
 
@@ -323,7 +321,6 @@ img.hover-shadow {
         margin-top: 10;
     }
 
-   
 
 }
 
@@ -354,9 +351,9 @@ img.hover-shadow {
         width: 90%;
     }
 
-	.vacations {
-		width: 90%;
-	}
+    .vacations {
+        width: 90%;
+    }
 
     .time_off img {
         width: 90%;
@@ -396,6 +393,7 @@ img.hover-shadow {
     .slider800 {
         display: block;
     }
+
     .slider800 {
         overflow: hidden;
     }
