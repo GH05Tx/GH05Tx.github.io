@@ -8,44 +8,26 @@
 </head>
 <body>
 <div class="index">
-    <div class="square"><img onclick="hide()" src="pics/mini_myprofile.jpg"></div>
     <div class="navigation">
-        <a class="piece" href="ill/ill.html">   ILLUSTRATIONS  </a>
+        <a class="piece" href="ill/ill.html"> ILLUSTRATIONS </a>
         <a class="piece" href="photo/photo.html"> PHOTOGRAPHY </a>
         <a class="piece" href="am/am.html"> ABOUT ME </a>
         <a class="piece" href="" onclick="hide()"> EXIT </a>
     </div>
 
+    <div class="shape"></div>
+    <div class="square"><img onclick="hide()" src="pics/mini_myprofile.jpg"></div>
+
     <div class="caption1"><p><b> MY PROFILE. </b></p></div>
     <div class="caption2"><p>press to begin the journey.</p></div>
 
     <script>
-        let menu=document.getElementsByClassName("piece");
-        let image=document.getElementsByClassName("square");
-
-        image.addEventListener("click", hide);
+        let menu = document.getElementsByClassName("piece");
         function hide() {
-            /*
-            if (!menu[0].classList.contains("hide")) {
-                for(let i=0; i<menu.length; i++) {
-                    image[i].classList.add("hide");
-                }
-            }
-            else if (menu[0].classList.contains("hide")) {
-                for(let i=0; i<menu.length; i++) {
-                    image[i].classList.remove("hide");
-                }
-            }
-            */
-
-            for(let i=0; i<menu.length; i++) {
+            for (let i = 0; i < menu.length; i++) {
                 menu[i].classList.add("show");
             }
-
-
-
         }
-    //hide();
     </script>
 </div>
 </body>

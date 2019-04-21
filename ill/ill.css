@@ -156,7 +156,7 @@ img.hover-shadow {
 }
 
 
-@media (min-width: 600px) and (max-width: 810px) {
+@media (min-width: 600px) and (max-width: 815px) {
 
     #navbar {
         -webkit-flex-flow: column wrap;
