@@ -282,6 +282,99 @@ footer {
         font-size: 10;
     }
 
+@media (min-width: 800px) {
+    .caption1 {
+        font-size: 25;
+    }
+
+    .caption2 {
+        font-size: 10;
+        margin-top: -30;
+        margin-bottom: -80;
+    }
+
+    .active {
+        display: block;
+    }
+
+    .piece {
+
+        width: 260px;
+
+        padding: 37px 0px;
+
+        font-size: 19px;
+
+        top: 80px;
+
+        border-width: 0.5px;
+
+    }
+
+    .piece:hover {
+        background-color: #0F0A0A;
+    }
+
+    .square:hover {
+        cursor: pointer;
+    }
+
+    .square img {
+        width: 260px;
+        height: 260px;
+
+        top: -260px;
+    }
+
+    .square {
+        margin-top: 50;
+        z-index: 2;
+        margin-bottom: -405;
+        position: relative;
+    }
+
+    .index {
+        margin-bottom: -200;
+    }
+
+    .navigation {
+        margin-bottom: -120;
+        height: 100;
+    }
+
+    .shape {
+        width: 280px;
+        height: 280px;
+        background-color: #0F0A0A;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: 90;
+        z-index: 0;
+    }
+
+    .show {
+        z-index: 10;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 @media (min-width: 600px) and (max-width: 800px) {
@@ -410,16 +503,7 @@ footer {
 @media (min-width: 600px) and (max-width: 800px) {
 
 
-    .square img {
-        width: 60%;
-    }
 
-    .index p {
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: left;
-    }
 }
 
 
@@ -450,18 +534,18 @@ footer {
     color: #f9f9f9;
     font-size: 23px;
     position: relative;
-    top: 90px;
+    top: 80px;
     border-color: #0F0A0A;
     border-style: solid;
     border-width: 0.5px;
-    z-index: -1;
+    z-index: -3;
 }
 
 .piece:hover {
     background-color: #0F0A0A;
 }
 
-.square img:hover {
+.square:hover {
     cursor: pointer;
 }
 
@@ -471,7 +555,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: -380px;
+    top: -382px;
 }
 
 .square {
@@ -497,13 +581,16 @@ footer {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: 100;
-    z-index: 0;
+    top: 85;
+    z-index: -1;
 }
 
 .show {
-    z-index: 10;
+    z-index: 101;
 }
 
+.show2 {
+    z-index: 100;
+}
 
 
