@@ -8,40 +8,45 @@
 </head>
 <body>
 <div class="index">
-<header>
-    <div class="hamburger" onclick="showMenu();">
-        <div id="line"></div>
-        <div id="line"></div>
-        <div id="line"></div>
-    </div>    
-    <div id="navbar">
-        <a class="field" href="main/main.html"> HOME </a>
-        <a class="field" href="ill/ill.html"> ILLUSTRATIONS </a>
-        <a class="field" href="photo/photo.html"> PHOTOGRAPHY </a>
-        <a class="field" href="am/am.html"> ABOUT ME </a>
+    <div class="square"><img onclick="hide()" src="pics/mini_myprofile.jpg"></div>
+    <div class="navigation">
+        <a class="piece" href="ill/ill.html">   ILLUSTRATIONS  </a>
+        <a class="piece" href="photo/photo.html"> PHOTOGRAPHY </a>
+        <a class="piece" href="am/am.html"> ABOUT ME </a>
+        <a class="piece" href="" onclick="hide()"> EXIT </a>
     </div>
-</header>
-<main>
-    <!--<div class="section"><b>MY PROFILE / HOME</b></div>-->
-<div class="square">
-        <img src="pics/mini_myprofile.jpg"></div>
-    <div class="caption1"><p><b> MY PROFILE. </b></p></div>
-    <div class="caption2"><p>read more before entering.</p></div>
 
-</main>
-<footer> Copyright 2018 myprofile.com &copy; All rights reserved.</footer>
-<script>
-    window.onscroll = function() {myFunction()};
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-    function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-      } else {
-        navbar.classList.remove("sticky");
-      }
-    }
-</script>
+    <div class="caption1"><p><b> MY PROFILE. </b></p></div>
+    <div class="caption2"><p>press to begin the journey.</p></div>
+
+    <script>
+        let menu=document.getElementsByClassName("piece");
+        let image=document.getElementsByClassName("square");
+
+        image.addEventListener("click", hide);
+        function hide() {
+            /*
+            if (!menu[0].classList.contains("hide")) {
+                for(let i=0; i<menu.length; i++) {
+                    image[i].classList.add("hide");
+                }
+            }
+            else if (menu[0].classList.contains("hide")) {
+                for(let i=0; i<menu.length; i++) {
+                    image[i].classList.remove("hide");
+                }
+            }
+            */
+
+            for(let i=0; i<menu.length; i++) {
+                menu[i].classList.add("show");
+            }
+
+
+
+        }
+    //hide();
+    </script>
 </div>
 </body>
 </html>
