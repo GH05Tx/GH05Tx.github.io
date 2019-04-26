@@ -11,28 +11,47 @@
         <a class="piece" href="ill/ill.html"> ILLUSTRATIONS </a>
         <a class="piece" href="photo/photo.html"> PHOTOGRAPHY </a>
         <a class="piece" href="am/am.html"> ABOUT ME </a>
-        <a class="piece" href="" onclick="hide()"> EXIT </a>
+        <a class="piece" href="" id="press1"> EXIT </a>
     </div>
-
     <div class="shape"></div>
-    <div class="square"><img onclick="hide()" src="pics/mini_myprofile.jpg"></div>
+    <div class="square" id="press2"><img src="pics/mini_myprofile.jpg"></div>
 
+    <!--
     <div class="caption1"><p><b> MY PROFILE. </b></p></div>
     <div class="caption2"><p>press to begin the journey.</p></div>
+    -->
+
+    <div class="caption1"><p><b>press to begin the journey.</b></p></div>
+    <div class="caption2"><p>MY PROFILE.</p></div>
 
     <script>
         let menu = document.getElementsByClassName("piece");
         let shape= document.getElementsByClassName("shape");
-        function hide() {
-            for (let i = 0; i < menu.length; i++) {
-                menu[i].classList.add("show");
-            }
-            for (let i = 0; i < shape.length; i++) {
-                shape[i].classList.add("show2");
-            }
 
+        function visibility() {
+            if(!menu[0].classList.contains("show")) {
+                for (let i = 0; i < menu.length; i++) {
+                    menu[i].classList.add("show");
+                }
+                for(let i=0; i<shape.length; i++) {
+                    shape[i].classList.add("show2");
+                }
+            }
+           else if (menu[0].classList.contains("show")) {
+                for(let i=0; i<shape.length; i++) {
+                    shape[i].classList.remove("show2");
+                }
+               for (let i = 0; i < menu.length; i++) {
+                    menu[i].classList.remove("show");
+                }
+
+            }
 
         }
+
+        document.getElementById("press1").addEventListener("click", visibility);
+        document.getElementById("press2").addEventListener("click", visibility);
+
     </script>
 </div>
 </body>
