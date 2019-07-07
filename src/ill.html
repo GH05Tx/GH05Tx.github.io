@@ -1,0 +1,122 @@
+<html>
+<head>
+    <title> My Profile </title>
+    <link href="../styles/ill.css" rel="stylesheet" type="text/css"/>
+    <link href="../styles/main.css" rel="stylesheet" type="text/css"/>
+    <script src="../scripts/hamburger.js" type="text/javascript"></script>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+</head>
+<body>
+<header>
+    <div class="logo"><img alt="logo" src="../images/others/logo.png"/></div>
+    <div class="logo600"><img alt="logo" src="../images/others/logo_800.svg"/></div>
+    <div class="hamburger" onclick="showMenu();">
+        <div id="line"></div>
+        <div id="line"></div>
+        <div id="line"></div>
+    </div>
+    <div id="navbar">
+        <a class="field" href="../index.html"> HOME </a>
+        <a class="field" href="ill.html"> ILLUSTRATIONS </a>
+        <a class="field" href="photo.html"> PHOTOGRAPHY </a>
+        <a class="field" href="am.html"> ABOUT ME </a>
+    </div>
+    <div class="slider">
+        <figure>
+            <img src="../images/slides/s3.jpg">
+            <img src="../images/slides/s1.jpg">
+            <img src="../images/slides/s4.jpg">
+            <img src="../images/slides/s8.jpg">
+            <img src="../images/slides/s7.jpg">
+        </figure>
+    </div>
+    <div class="slider600">
+        <figure>
+            <img src="../images/slides/s3_600.jpg">
+            <img src="../images/slides/s1_600.jpg">
+            <img src="../images/slides/s4_600.jpg">
+            <img src="../images/slides/s8_600.jpg">
+            <img src="../images/slides/s7_600.jpg">
+        </figure>
+    </div>
+    <div class="slider800">
+        <figure>
+            <img src="../images/slides/s3_800.jpg">
+            <img src="../images/slides/s1_800.jpg">
+            <img src="../images/slides/s4_800.jpg">
+            <img src="../images/slides/s8_800.jpg">
+            <img src="../images/slides/s7_800.jpg">
+        </figure>
+    </div>
+</header>
+<main>
+    <div class="section"><b>MY PROFILE / ILLUSTRATIONS</b></div>
+    <div class="grid">
+        <div class="box 1" onclick="openModal();currentSlide(1)">
+            <img src="../images/covers/cover_hkotfd.jpg"/><br/>
+            <p><b> He kisses on the first date </b><br/> 2018 </p>
+        </div>
+        <div class="box 2" onclick="openModal();currentSlide(2)">
+            <img src="../images/covers/cover_void.jpg"/><br/>
+            <p><b>Void. </b><br/> 2018 </p>
+        </div>
+        <div class="box 3" onclick="openModal();currentSlide(3)">
+            <img src="../images/covers/cover_nibtn.jpg"/><br/>
+            <p><b>Now is better than never </b><br/> 2018 </p>
+        </div>
+        <div class="box 4" onclick="openModal();currentSlide(4)">
+            <img src="../images/covers/cover_tddup.jpg"/><br/>
+            <p><b>Till death do us part </b><br/> 2018</p>
+        </div>
+        <div class="box 5" onclick="openModal();currentSlide(5)">
+            <img src="../images/covers/cover_bar.jpg"/><br/>
+            <p><b> Once upon a time in the bar. </b><br/> 2018</p>
+        </div>
+        <div class="box 6" onclick="openModal();currentSlide(6)">
+            <img src="../images/covers/cover_lmi.jpg"/><br/>
+            <p><b> Let me introduce </b><br/> 2018</p>
+        </div>
+    </div>
+</main>
+<div class="modal" id="myModal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+        <div class="mySlides">
+            <img src="../images/illustrations/hkotfd.png" style="width:100%">
+            <p>Title: <b> He kisses on the first date </b>
+                <br/> Tool: Adobe Illustrator <br/> Year: 2018
+            </p>
+        </div>
+        <div class="mySlides">
+            <img src="../images/illustrations/void.png" style="width:100%">
+            <p>Title: <b> Void.</b>
+                <br/> Tool: Adobe Illustrator <br/> Year: 2018
+            </p>
+        </div>
+        <div class="mySlides">
+            <img src="../images/illustrations/nibtn.png" style="width:100%">
+            <p>Title: <b> Now is better than never </b>
+                <br/> Tool: Adobe Illustrator <br/> Year: 2018 </p>
+        </div>
+        <div class="mySlides">
+            <img src="../images/illustrations/tddup.jpg" style="width:100%">
+            <p>Title: <b> Till death do us part </b>
+                <br/> Tool: Adobe Illustrator <br/> Year: 2018 </p>
+        </div>
+        <div class="mySlides">
+            <img src="../images/illustrations/bar.jpg" style="width:100%">
+            <p>Title: <b> Once upon a time in the bar. </b>
+                <br/> Tool: Adobe Illustrator <br/> Year: 2018 </p>
+        </div>
+        <div class="mySlides">
+            <img src="../images/illustrations/lmi.png" style="width:100%">
+            <p>Title: <b> Let me introduce </b>
+                <br/> Tool: Adobe Illustrator <br/> Year: 2018 </p>
+        </div>
+    </div>
+</div>
+<footer> Copyright 2018 myprofile.com &copy; All rights reserved.</footer>
+<script src="../scripts/sticky.js"></script>
+<script src="../scripts/modal.js"></script>
+</body>
+</html>

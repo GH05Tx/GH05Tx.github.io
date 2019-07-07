@@ -1,7 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18f3956f-898a-4898-b284-0aae95847a35" name="Default Changelist" comment="" />
+    <list default="true" id="18f3956f-898a-4898-b284-0aae95847a35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/scripts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/am/am.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/am/am.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hamburger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ill/ill.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ill/ill.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo/categories/category.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo/categories/crime.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo/categories/parting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo/categories/vacations.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo/photo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo/photo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/behance_min.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/covers/cover_bar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/covers/cover_hkotfd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/covers/cover_lmi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/covers/cover_nibtn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/covers/cover_tddup.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/covers/cover_void.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/covers/parting_cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/covers/parting_cover2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/covers/parting_cover2_600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/covers/parting_cover2_800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/covers/session_cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/covers/session_cover_600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/covers/session_cover_800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/covers/vacation_cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/covers/vacation_cover_600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/covers/vacation_cover_800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/illustrations/bar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/illustrations/hkotfd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/illustrations/lmi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/illustrations/nibtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/illustrations/tddup.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/illustrations/void.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/insta_min.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/mini_myprofile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/mini_myprofile_black.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/others/behance_min.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/others/insta_min.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/others/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/others/logo_800.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/others/mail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/others/menu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/photos/pic_screen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/photos/profile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/photos/profile1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/photos/profile2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/photos/profile3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/photos/profile600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/photos/profile_pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/photos/session1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/photos/session2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/photos/session3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/photos/session4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/photos/session5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/photos/time1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/photos/time2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/photos/time3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/photos/time5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/photos/time6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/photos/time7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/photos/time8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/photos/vac1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/photos/vac2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/photos/vac3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/photos/vac4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/photos/vac5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/photos/vac6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/profile_pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/slides/s1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/slides/s1_600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/slides/s1_800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/slides/s2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/slides/s2_600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/slides/s2_800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/slides/s3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/slides/s3_600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/slides/s3_800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/slides/s4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/slides/s4_600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/slides/s4_800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/slides/s5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/slides/s5_600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/slides/s5_800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/slides/s6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/slides/s6_600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/slides/s6_800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/slides/s7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/slides/s7_600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/slides/s7_800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/slides/s8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/slides/s8_600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/slides/s8_800.jpg" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,39 +111,83 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6101871">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/main_style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1105">
-                  <caret line="488" column="17" selection-start-line="488" selection-start-column="17" selection-end-line="488" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/am.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1190">
+              <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/crime.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="87" column="28" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ill.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1921">
+              <caret line="113" column="16" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="16" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/timeoff.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1156">
+              <caret line="68" column="61" lean-forward="true" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="61" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vacations.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-238">
+              <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/photo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -78,13 +221,21 @@
         <option value="$PROJECT_DIR$/photo/categories/parting.html" />
         <option value="$PROJECT_DIR$/photo/categories/crime.html" />
         <option value="$PROJECT_DIR$/main_style.css" />
+        <option value="$PROJECT_DIR$/scripts/index.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scripts/modal.js" />
+        <option value="$PROJECT_DIR$/src/parting.html" />
+        <option value="$PROJECT_DIR$/src/photo.html" />
+        <option value="$PROJECT_DIR$/src/ill.html" />
+        <option value="$PROJECT_DIR$/src/vacations.html" />
+        <option value="$PROJECT_DIR$/src/am.html" />
+        <option value="$PROJECT_DIR$/src/crime.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="368" />
-    <option name="y" value="32" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="366" />
+    <option name="y" value="30" />
     <option name="width" value="1245" />
     <option name="height" value="980" />
   </component>
@@ -93,7 +244,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,28 +254,23 @@
             <path>
               <item name="GH05Tx.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="GH05Tx.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="am" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GH05Tx.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="GH05Tx.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="ill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GH05Tx.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="GH05Tx.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="photo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GH05Tx.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GH05Tx.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="photo" type="462c0819:PsiDirectoryNode" />
-              <item name="categories" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -133,7 +278,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -170,16 +315,19 @@
       <workItem from="1555885844855" duration="3401000" />
       <workItem from="1556144156881" duration="21000" />
       <workItem from="1556292973847" duration="6401000" />
+      <workItem from="1562502790248" duration="7000" />
+      <workItem from="1562502883194" duration="3003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39866000" />
+    <option name="totallyTimeSpent" value="42876000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="295" y="26" width="996" height="784" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16839917" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1682058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -193,101 +341,99 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/photo/categories/category.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="292" column="17" selection-start-line="292" selection-start-column="17" selection-end-line="292" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/photo/categories/category.css" />
     <entry file="file://$PROJECT_DIR$/photo/categories/JS.html" />
-    <entry file="file://$PROJECT_DIR$/am/am.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="582" column="22" selection-start-line="582" selection-start-column="22" selection-end-line="582" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/am/am.css" />
     <entry file="file://$PROJECT_DIR$/index — kopia.html" />
-    <entry file="file://$PROJECT_DIR$/hamburger.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/WebstormProjects/JSLearning/js/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ill/ill.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="132" column="10" lean-forward="true" selection-start-line="132" selection-start-column="10" selection-end-line="132" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ill/ill.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="47" column="43" lean-forward="true" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/am/am.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="45" column="38" lean-forward="true" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photo/photo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photo/categories/vacations.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photo/categories/crime.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photo/categories/parting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="47" column="45" lean-forward="true" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1105">
-          <caret line="488" column="17" selection-start-line="488" selection-start-column="17" selection-end-line="488" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hamburger.js" />
+    <entry file="file://$USER_HOME$/WebstormProjects/JSLearning/js/main.js" />
+    <entry file="file://$PROJECT_DIR$/ill/ill.css" />
+    <entry file="file://$PROJECT_DIR$/ill/ill.html" />
+    <entry file="file://$PROJECT_DIR$/am/am.html" />
+    <entry file="file://$PROJECT_DIR$/photo/photo.html" />
+    <entry file="file://$PROJECT_DIR$/photo/categories/vacations.html" />
+    <entry file="file://$PROJECT_DIR$/photo/categories/crime.html" />
+    <entry file="file://$PROJECT_DIR$/photo/categories/parting.html" />
+    <entry file="file://$PROJECT_DIR$/main_style.css" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="408">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="72" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ill.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1921">
+          <caret line="113" column="16" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/photo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/timeoff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="61" lean-forward="true" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="61" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vacations.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/am.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crime.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="87" column="28" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
         </state>
       </provider>
     </entry>
